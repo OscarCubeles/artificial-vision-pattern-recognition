@@ -1,6 +1,6 @@
 # Artificial Vision and Pattern Recognition
 
-This repository contains the coursework completed for the **Artificial Vision and Pattern Recognition** subject. It brings together the practical laboratory exercises, a larger image-processing project, and a research study based on a published computer-vision paper. The work covers classical image processing, local feature extraction and matching, deep image classification, semantic segmentation, and the analysis of a recent scene-recognition architecture.
+This repository contains the coursework completed for the **Artificial Vision and Pattern Recognition** subject. It brings together the practical laboratory exercises, a larger image-processing project, and a research study based on a published computer-vision paper. 
 
 ## Labs
 
