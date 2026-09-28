@@ -4,29 +4,17 @@ This repository contains the coursework completed for the **Artificial Vision an
 
 ## Labs
 
-### Lab 1 - Image filtering and frequency-domain processing
+1. **Lab 1 - Image filtering:** Compares edge detectors, custom kernels, denoising filters, motion blur, and frequency-domain filtering. See the [`source notebook`](labs/Lab1/lab1.ipynb) and [`exercise document`](labs/Lab1/LAB_1.pdf).
 
-Lab 1 introduces fundamental image-processing operations with OpenCV and NumPy. It compares Sobel, Prewitt, and Scharr edge detectors; explores custom sharpening, enhancement, embossing, and blur kernels; evaluates several denoising filters on salt-and-pepper noise using PSNR; simulates motion blur at different sizes and angles; and studies high-pass and low-pass filtering in the Fourier domain. The main implementation is available in [`lab1.ipynb`](labs/Lab1/lab1.ipynb), with the accompanying exercise document in [`LAB_1.pdf`](labs/Lab1/LAB_1.pdf).
+2. **Lab 2 - Edges, corners, and morphology:** Explores Canny edge detection, Harris corners, and morphological operations such as erosion, dilation, opening, and closing. See the [`source notebook`](labs/Lab2/lab2.ipynb), [`Python export`](labs/Lab2/lab2.py), and [`report`](labs/Lab2/oscar.cubeles_lab2_AVPR.pdf).
 
-### Lab 2 - Edges, corners, and morphology
+3. **Lab 3 - Feature extraction and matching:** Uses SIFT and LBP descriptors for feature matching, image alignment, and texture classification. See the [`source notebook`](labs/Lab3/Lab3AVPR_oscar.cubeles.ipynb) and [`report`](labs/Lab3/Lab3AVPR_oscar.cubeles.pdf).
 
-Lab 2 examines structural feature detection and mathematical morphology. The notebook compares gradient-based and Canny edge detection, studies the effect of Canny thresholds, applies Harris corner detection with different parameter choices, and evaluates erosion, dilation, opening, closing, and morphological gradients on several types of images. The main implementation is [`lab2.ipynb`](labs/Lab2/lab2.ipynb); a Python export is also provided in [`lab2.py`](labs/Lab2/lab2.py), together with the [`lab report`](labs/Lab2/oscar.cubeles_lab2_AVPR.pdf).
+4. **Lab 5 - ResNet experimentation:** Studies how hyperparameters, architectural changes, and data augmentation affect a PyTorch ResNet image classifier. See the [`source notebook`](labs/Lab5/oscar.cubeles_lab5.ipynb) and [`report`](labs/Lab5/oscar.cubeles_lab5.pdf).
 
-### Lab 3 - Feature descriptors and local feature matching
+5. **Lab 7 - Crack segmentation:** Trains and evaluates a MATLAB U-Net for semantic segmentation of surface cracks from the DeepCrack dataset. See the [`MATLAB live script`](labs/oscar.cubeles_lab7/lab7_deepcrack_oscar_cubeles.mlx) and [`report`](labs/oscar.cubeles_lab7/oscar.cubeles_report_lab7.pdf).
 
-Lab 3 focuses on representing and matching visual features. It extracts and spatially distributes SIFT keypoints, performs descriptor matching between images, computes Local Binary Pattern (LBP) texture descriptors, aligns images using matched features and estimated transformations, and trains a k-nearest-neighbors classifier for texture recognition. The main source code and analysis are contained in [`Lab3AVPR_oscar.cubeles.ipynb`](labs/Lab3/Lab3AVPR_oscar.cubeles.ipynb), with results documented in the [`lab report`](labs/Lab3/Lab3AVPR_oscar.cubeles.pdf).
-
-### Lab 5 - ResNet training and experimentation
-
-Lab 5 studies deep image classification with PyTorch and a custom ResNet. It investigates the effects of learning rate, batch size, and training duration; adapts the network architecture through dropout, convolutional kernel, filter, and depth changes; and compares data-transformation and augmentation strategies. Experimental results are collected and visualized to assess their effect on model performance. The main implementation is [`oscar.cubeles_lab5.ipynb`](labs/Lab5/oscar.cubeles_lab5.ipynb), accompanied by the [`lab report`](labs/Lab5/oscar.cubeles_lab5.pdf).
-
-### Lab 7 - Crack segmentation with deep learning
-
-Lab 7 implements semantic segmentation of surface cracks in MATLAB using the DeepCrack dataset. It prepares paired image and pixel-label datastores, resizes the data for training, constructs and trains a two-class U-Net, evaluates predictions using global accuracy, intersection over union, and F1 score, and visualizes predicted crack masks against their ground truth. The main implementation is the MATLAB live script [`lab7_deepcrack_oscar_cubeles.mlx`](labs/oscar.cubeles_lab7/lab7_deepcrack_oscar_cubeles.mlx); the folder also contains the trained network, saved predictions, dataset archive, and [`lab report`](labs/oscar.cubeles_lab7/oscar.cubeles_report_lab7.pdf).
-
-### Project 1 - Circle detection in real-world images
-
-Project 1 develops and compares techniques for detecting and counting circular objects under varying image conditions. Starting from the Hough Circle Transform, it explores Canny edges, high-pass filtering, filled edge masks, unsharp masking, adaptive thresholding, morphological preprocessing, contour analysis, and circularity-based detection. The experiments and visual comparisons are in [`assignment.ipynb`](labs/Project1AVPR/assignment.ipynb), with the project brief in [`Task1.pdf`](labs/Project1AVPR/Task1.pdf) and the test images in the [`Images`](labs/Project1AVPR/Images) directory.
+6. **Project 1 - Circle detection:** Compares Hough transforms, edge-based preprocessing, adaptive thresholding, and contour analysis for detecting circular objects. See the [`source notebook`](labs/Project1AVPR/assignment.ipynb), [`project brief`](labs/Project1AVPR/Task1.pdf), and [`test images`](labs/Project1AVPR/Images).
 
 ## Research Work
 
